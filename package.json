@@ -1,0 +1,32 @@
+{
+  "name": "cluster-benchmark",
+  "version": "1.0.0",
+  "description": "benchmark of node-cluster",
+  "scripts": {
+    "start": "node single.js",
+    "start-cluster": "node cluster.js",
+    "test": "ava --watch --timeout 2000 --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacknlove/cluster-benchmark.git"
+  },
+  "author": "hacknlove",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacknlove/cluster-benchmark/issues"
+  },
+  "homepage": "https://github.com/hacknlove/cluster-benchmark#readme",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "sinon": "^7.3.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
+    "seedrandom": "^3.0.1",
+    "superagent": "^5.0.5"
+  }
+}
